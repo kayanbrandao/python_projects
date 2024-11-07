@@ -1,3 +1,3 @@
-# Projetos em Python
+# Python Projects
 
-Bem-vindo ao repositório dos meus projetos em Python! Este espaço foi criado para armazenar e compartilhar meus pequenos projetos, experimentos e exercícios enquanto desenvolvo minhas habilidades em programação.
+Welcome to my Python projects repository! This space was created to store and share my small projects, experiments, and exercises as I develop my programming skills.
