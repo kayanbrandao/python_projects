@@ -31,7 +31,7 @@ class ImageToPdfConverter:
         converter_button.pack(pady = (20, 40))
 
     def select_images(self):
-        self.image_paths = filedialog.askopenfilenames(title = "Select Images", filetypes = [("Images Files", "*.png,*.jpg,*.jpeg")])
+        self.image_paths = filedialog.askopenfilenames(title = "Select Images", filetypes = [("Images Files", "*.png, *.jpg, *.jpeg")])
         self.update_selected_images_listbox()
 
     def update_selected_images_listbox(self):
@@ -59,7 +59,7 @@ class ImageToPdfConverter:
             x_centered = (612 - new_width) / 2
             y_centered = (792 - new_heigth) / 2
 
-            pdf.setFillColor(255, 255, 255)
+            pdf.setFillColorRGB(255, 255, 255)
             pdf.rect(0, 0, 612, 792, fill = True)
             pdf.drawInlineImage(img, x_centered, y_centered, width = new_width, height = new_heigth)
             pdf.showPage()
